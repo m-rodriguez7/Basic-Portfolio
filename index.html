@@ -4,39 +4,42 @@
     <head>
         <meta charset="UTF-8">
         <title>Michael Rodriguez</title>
-        <link rel="stylesheet" href="reset.css">
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="assets/css/reset.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     </head>
 
 
     <body>
-        
         <header> <!-- Put "your name", plue the "about, portfolio, and contact" buttons on the right -->
-            <h1>Michael Rodriguez</h1> <!-- style this to match the photo, keep as block -->
+            <h1 id = "name">Michael Rodriguez</h1> <!-- style this to match the photo, keep as block -->
             <p>About</p> <!-- perhaps ID these --> 
             <!-- there is a faint "|" in between these words, try out html and style -->
             <p>Portfolio</p>
             <p>Contact</p>
         </header>
 
-        <article> <!-- give this section a 1px border so it "pops out" -->
-            <h1>About Me</h1>
-            <!-- small underline for this -->
-            <img src = "relative filepath for picture here" alt = "here's a cute photo of me lmao">
-            <p>Write about yourself here, fool</p> <!-- text needs to wrap around phot -->
-            <p>and another one</p>
+        <div>
+       
+            <article> <!-- give this section a 1px border so it "pops out" -->
+                <h1 id = "about">About Me</h1>
+                <!-- small underline for this -->
+                <img src = "assets/images/me.jpg" alt = "Michael Rodriguez  ">
+                <p>Hello! I'm Michael, a Berkeley resident studying web development. I'm 25 years old and a recent UC Berkeley graduate from the Department of Linguistics.  </p> <!-- text needs to wrap around phot -->
+                <p>In my spare time, I love to play video games, go on long bike rides, and make coffee! I also practice Yongmudo, a korean self-defense martial art. </p>
             
-        </article>
+            </article>
 
-        <aside> <!-- give this section a 1px border so it "pops out" -->
-            <h2>Connect with Me</h2>
-            <!-- Put a small underline here -->
-            <img src = "assets/images/github.png" alt = "github here">
-            <img src = "assets/images/linkedin.png" alt = "linkedin here">
-            <img src = "assets/images/stackoverflow.png" alt = "stackoverflow here">
-            <!-- the images here will need to read right to left, float? --> 
-        </aside>
+            <aside> <!-- give this section a 1px border so it "pops out" -->
+                <h2>Connect with Me</h2>
+                <!-- Put a small underline here -->
+                <img src = "assets/images/github.png" alt = "github here">
+                <img src = "assets/images/linkedin.png" alt = "linkedin here">
+                <img src = "assets/images/stackoverflow.png" alt = "stackoverflow here">
+                <!-- the images here will need to read right to left, float? --> 
+            </aside>
 
+        </div>
+        
         <footer>
             <p>&copy;Copyright 2018 Michael Rodriguez</p>
             <!-- style so footer is all one color, small border of a different color on top of it. -->
