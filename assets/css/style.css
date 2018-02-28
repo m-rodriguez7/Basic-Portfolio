@@ -10,6 +10,9 @@ header {
 
 #name {
     background-color: #4aaaa5;
+    padding: 15px;
+    display: inline;
+    color: #ffffff;
 }
 
 article, aside, footer {
