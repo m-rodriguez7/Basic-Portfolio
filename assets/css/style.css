@@ -1,18 +1,34 @@
-body {
-    width: 960px;
+html {
+    z-index: 0;
+    background-image: url('../images/dust_scratches.png');
 }
 
+body {
+    width: 960px;
+    padding-left: 100px;
+    z-index: 1; 
+}
+
+
 header {
+    height: 76px;
     font-family: 'Georgia', Times, Times New Roman, serif;
     background-color: #ffffff;
-    border-color: #cccccc
+    border-color: #cccccc;
+    z-index: 1;
 }
 
 #name {
     background-color: #4aaaa5;
-    padding: 15px;
-    display: inline;
+    padding: 30px;
+    float:left;
     color: #ffffff;
+}
+
+li {
+    float: right;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 article, aside, footer {
@@ -20,11 +36,26 @@ article, aside, footer {
     color: #777777;
 }
 
-div {
-    background-image: url('../images/dust_scratches.png'); 
+.social {
+    height:50px;
+    width: 50px;
+}
+#myphoto {
+    max-width: 200px;
+    max-height: 200px;
+    float:left;
 }
 
+
 footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    padding: 30px;
+    font-size: 12px;
+    border-top: solid 5px;
+    border-color: #4aaaa5; 
     text-align: center;
     background-color: #666666;
+    color: #C6C5C4;
 }
